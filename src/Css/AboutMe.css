@@ -1,0 +1,49 @@
+.AboutMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7%;
+    background-color: #f9f9f9; 
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+/* Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+.Content{
+ padding-right: 3%;
+ font-family: "Nunito";
+ font-size: x-large;
+ font-weight: 100;
+ font-family: "concert one", sans-serif;
+}
+.sub:hover{
+    font-family: "Nunito";
+    color: #800000;
+}
+.sub{
+    font-family: "Nunito";
+    color: #05386B;
+}
+.name{
+     font-family: "Nunito";
+    font-weight: 500;
+    font-style: normal;
+    color:#05386B;
+    font-size: x-large;
+}
+#name{
+    font-weight: 900;
+    font-size: 50px;
+    color: #800000;
+}
+.name:hover{
+    color: #800000;
+}
+#name:hover{
+    color:#05386B;
+}

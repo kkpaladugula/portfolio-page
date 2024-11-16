@@ -1,0 +1,112 @@
+
+
+.Skills{
+    font-family: "Nunito";
+    font-size: x-large;
+    margin-top: 50px 0 0 0;
+    padding-left: 3%;
+   
+    color: #0b315f;
+}
+.lists>div{
+    font-family: "Nunito";
+    padding: 5px;
+    font-size: larger;
+    padding-left: 5%;
+    color: #333;
+}   
+
+
+
+.companyName{
+font-family: "Nunito";
+font-size: xx-large;
+color: #0b315f;
+padding: 10px;
+
+}
+.companyName>span{
+font-size: large;
+padding-left: 20%;
+
+}
+.companyName:hover{
+color: #5cdb95 ;
+}
+.Project{
+font-family: "Nunito";
+font-size: large;
+color:#9a1750;
+}
+ul>li{
+padding:1px 2px;
+font-size: larger;
+color: #333;
+}
+
+
+
+
+
+
+
+.Achievements{
+    
+font-family: "Nunito";
+font-size: larger;
+padding-left: 3%;
+padding-top: 3%;
+}
+.strong{
+color: #0c376c;
+}
+em{
+    color: darkred;
+}
+
+
+
+
+
+
+.Education-paragraph{
+font-family: "Nunito";
+font-size: larger;
+
+}
+
+.Education-paragraph{
+    font-size: large;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Nunito', sans-serif; /* Clean and professional font */
+    font-size: larger; /* Adjust the text size for readability */
+    line-height: 1.6; /* Better spacing between lines */
+    color: #333; /* Neutral text color for better contrast */
+    padding: 10px 20px; /* Add padding for space around the text */
+    
+}
+.Education2{
+    padding: 10px 20px;
+    color: #800000;
+    
+}
+.collage{
+    color: #0b315f;
+}
+
+.Contact{
+font-family: "Nunito";
+padding: 5% 10%;
+color: #0b315f;
+text-align: center;
+text-decoration: none;
+background-color: #f9f9f9; 
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.side{
+    padding-left: 20%;
+    color: black;
+}
+

@@ -1,0 +1,19 @@
+ <div className='linkContent' >
+                        <Link to="Home" className="custom-link">Home</Link>
+                        <Link to="Experience" className="custom-link" >Experience</Link>
+                        <Link to="Skills" className="custom-link" >Skills</Link>
+                        <Link to="Education" className="custom-link">Education</Link>
+                        <Link to="Achievements" className="custom-link" >Achievements</Link>
+                        <Link to="Contact" className="custom-link" >Contact</Link>
+                    
+                  </div>      
+          <Routes>
+                  <Route index  element={<Home/>}/>
+                  <Route path='Home' element={<Home/>}/>
+                  <Route path="Experience"  element={<Experience/>} />
+                  <Route path="Skills"  element={<Skills/>} />
+                  <Route path="Education"  element={<Education/>} />
+                  <Route path="Achievements"  element={<Achievements/>} />
+                  <Route path="Contact"  element={<Contact/>} />
+                  <Route path="*" element={<div>Page Not Found</div>} />  {/* 404 Route */}
+          </Routes>

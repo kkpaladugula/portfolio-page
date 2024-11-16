@@ -1,0 +1,27 @@
+/* .nav-link {
+    transition: all 0.3s ease; 
+  }
+  
+  .nav-link:hover {
+    font-size: 1.2rem; 
+    color: #05386B;
+    font-family: 'Nunito', sans-serif;
+  } */
+  .nav-link {
+    transition: all 0.3s ease; /* Smooth transition for all changes */
+    font-size: 1rem; /* Default size */
+    color: #ffffff; /* Default color */
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .nav-link:hover {
+    font-size: 1.2rem; /* Increase size on hover */
+     
+  }
+  
+  .nav-link.active-link {
+    font-size: 1.3rem; /* Larger size for active link */
+    font-weight: bold; /* Bold text */
+    color: #ffc107; /* Highlight color */
+  }
+  
